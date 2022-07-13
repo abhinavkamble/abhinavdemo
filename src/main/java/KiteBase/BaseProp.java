@@ -33,7 +33,9 @@ public class BaseProp
 		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
 		Reporter.log("Browser was launched Successfully",true);
 		ChromeOptions co = new ChromeOptions();
-		co.addArguments("disable-popup-blocking");  
+		co.addArguments("disable-popup-blocking");
+		
+		System.out.println("this is 2nd demo github");
 	}  
 }
 
